@@ -12,9 +12,7 @@ gem 'slim' # slim templating engine
 gem 'pg' # Heroku likes PostGresql and so do I
 gem 'bootstrap-sass', '~> 3.3.6'  # Because I really don’t have a good eye for design ;)
  
- 
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
