@@ -4,11 +4,13 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
 gem 'rails', '4.2.5'
-gem “devise” # for session management (login, logout etc)
+
+gem 'devise'
+# for session management (login, logout etc)
 gem 'access-granted', '~> 1.0.0' # cancan-inspired simple authorisation system
-gem “slim” # slim templating engine
-gem ‘pg’ # Heroku likes PostGresql and so do I
-gem ' bootstrap-sass ' , ' ~> 3.3.6 '  # Because I really don’t have a good eye for design ;)
+gem 'slim' # slim templating engine
+gem 'pg' # Heroku likes PostGresql and so do I
+gem 'bootstrap-sass', '~> 3.3.6'  # Because I really don’t have a good eye for design ;)
  
  
 # Use sqlite3 as the database for Active Record
